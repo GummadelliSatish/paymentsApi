@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_hm_l4ASCEeipbtix-oa2Dg" name="model">
+  <eAnnotations xmi:id="_hm_l4QSCEeipbtix-oa2Dg" source="genmymodel">
+    <details xmi:id="_hm_l4gSCEeipbtix-oa2Dg" key="uuid" value="_yD87EPUtEeeL5uCiN2F57w"/>
+    <details xmi:id="_hm_l4wSCEeipbtix-oa2Dg" key="author" value="satish.polyglot"/>
+  </eAnnotations>
+  <packageImport xmi:id="_hm_l5ASCEeipbtix-oa2Dg">
+    <eAnnotations xmi:id="_hm_l5QSCEeipbtix-oa2Dg" source="genmymodel">
+      <details xmi:id="_hm_l5gSCEeipbtix-oa2Dg" key="uuid" value="_yD87EfUtEeeL5uCiN2F57w"/>
+    </eAnnotations>
+    <importedPackage href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#/"/>
+  </packageImport>
+  <packagedElement xsi:type="uml:Package" xmi:id="_hm_l5wSCEeipbtix-oa2Dg" name="com.form3.model.payment">
+    <eAnnotations xmi:id="_hm_l6ASCEeipbtix-oa2Dg" source="genmymodel">
+      <details xmi:id="_hm_l6QSCEeipbtix-oa2Dg" key="uuid" value="_vdSkENdbEDWsJbrJLaeGOQ"/>
+    </eAnnotations>
+    <ownedComment xmi:id="_hm_l6gSCEeipbtix-oa2Dg" body="Payments Model API Class diagram">
+      <eAnnotations xmi:id="_hm_l6wSCEeipbtix-oa2Dg" source="genmymodel">
+        <details xmi:id="_hm_l7ASCEeipbtix-oa2Dg" key="uuid" value="_I7tQcddiEDWsJbrJLaeGOQ"/>
+      </eAnnotations>
+    </ownedComment>
+    <packagedElement xsi:type="uml:Class" xmi:id="_hm_l7QSCEeipbtix-oa2Dg" name="Payment">
+      <eAnnotations xmi:id="_hm_l7gSCEeipbtix-oa2Dg" source="genmymodel">
+        <details xmi:id="_hm_l7wSCEeipbtix-oa2Dg" key="uuid" value="_2hdKYddbEDWsJbrJLaeGOQ"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_hm_l8ASCEeipbtix-oa2Dg" name="type" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_hm_l8QSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_l8gSCEeipbtix-oa2Dg" key="uuid" value="_76MwsNdbEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_l8wSCEeipbtix-oa2Dg" name="id" visibility="private">
+        <eAnnotations xmi:id="_hm_l9ASCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_l9QSCEeipbtix-oa2Dg" key="uuid" value="_91tbINdbEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_l9gSCEeipbtix-oa2Dg" name="version" visibility="private">
+        <eAnnotations xmi:id="_hm_l9wSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_l-ASCEeipbtix-oa2Dg" key="uuid" value="_-lIs8NdbEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_l-QSCEeipbtix-oa2Dg" name="organizationId" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_hm_l-gSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_l-wSCEeipbtix-oa2Dg" key="uuid" value="_EmyGUNdcEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_l_ASCEeipbtix-oa2Dg" name="attribute" visibility="private" type="_hm_l_wSCEeipbtix-oa2Dg" isUnique="false" aggregation="composite">
+        <eAnnotations xmi:id="_hm_l_QSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_l_gSCEeipbtix-oa2Dg" key="uuid" value="_a3P3sNdcEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_hm_l_wSCEeipbtix-oa2Dg" name="PaymentDetails">
+      <eAnnotations xmi:id="_hm_mAASCEeipbtix-oa2Dg" source="genmymodel">
+        <details xmi:id="_hm_mAQSCEeipbtix-oa2Dg" key="uuid" value="_TreNgNdcEDWsJbrJLaeGOQ"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_hm_mAgSCEeipbtix-oa2Dg" name="amount" visibility="private" type="_hm_m7ASCEeipbtix-oa2Dg">
+        <eAnnotations xmi:id="_hm_mAwSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mBASCEeipbtix-oa2Dg" key="uuid" value="_wPckUddcEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mBQSCEeipbtix-oa2Dg" name="currency" visibility="private" type="_hm_mdgSCEeipbtix-oa2Dg" isUnique="false" aggregation="composite">
+        <eAnnotations xmi:id="_hm_mBgSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mBwSCEeipbtix-oa2Dg" key="uuid" value="__WKr0ddcEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mCASCEeipbtix-oa2Dg" name="beneficiaryParty" visibility="private" type="_hm_mSgSCEeipbtix-oa2Dg" isUnique="false">
+        <eAnnotations xmi:id="_hm_mCQSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mCgSCEeipbtix-oa2Dg" key="uuid" value="_BtDDoNddEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mCwSCEeipbtix-oa2Dg" name="debtorParty" visibility="private" type="_hm_mSgSCEeipbtix-oa2Dg">
+        <eAnnotations xmi:id="_hm_mDASCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mDQSCEeipbtix-oa2Dg" key="uuid" value="_Pdq64NddEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mDgSCEeipbtix-oa2Dg" name="sponsorParty" visibility="private" type="_hm_mSgSCEeipbtix-oa2Dg" isUnique="false">
+        <eAnnotations xmi:id="_hm_mDwSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mEASCEeipbtix-oa2Dg" key="uuid" value="_FZ6aINdhEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mEQSCEeipbtix-oa2Dg" name="chargesInformation" visibility="private" type="_hm_mZQSCEeipbtix-oa2Dg">
+        <eAnnotations xmi:id="_hm_mEgSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mEwSCEeipbtix-oa2Dg" key="uuid" value="_UFv5QdddEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mFASCEeipbtix-oa2Dg" name="fx" visibility="private" type="_hm_mswSCEeipbtix-oa2Dg" isUnique="false">
+        <eAnnotations xmi:id="_hm_mFQSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mFgSCEeipbtix-oa2Dg" key="uuid" value="_0QuEkddgEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mFwSCEeipbtix-oa2Dg" name="endToEndReference" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_hm_mGASCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mGQSCEeipbtix-oa2Dg" key="uuid" value="_N-vh8ddhEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mGgSCEeipbtix-oa2Dg" name="numericReference" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_hm_mGwSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mHASCEeipbtix-oa2Dg" key="uuid" value="_PYNPQNdhEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mHQSCEeipbtix-oa2Dg" name="paymentId" visibility="private">
+        <eAnnotations xmi:id="_hm_mHgSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mHwSCEeipbtix-oa2Dg" key="uuid" value="_QJfiQNdhEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mIASCEeipbtix-oa2Dg" name="paymentPurpose" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_hm_mIQSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mIgSCEeipbtix-oa2Dg" key="uuid" value="_QmiqoNdhEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mIwSCEeipbtix-oa2Dg" name="paymentScheme" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_hm_mJASCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mJQSCEeipbtix-oa2Dg" key="uuid" value="_RCMr4NdhEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mJgSCEeipbtix-oa2Dg" name="paymentType" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_hm_mJwSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mKASCEeipbtix-oa2Dg" key="uuid" value="_k2WL0NdhEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mKQSCEeipbtix-oa2Dg" name="processingDate" visibility="private" type="_hm_m7wSCEeipbtix-oa2Dg" isUnique="false">
+        <eAnnotations xmi:id="_hm_mKgSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mKwSCEeipbtix-oa2Dg" key="uuid" value="_lPfEkNdhEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mLASCEeipbtix-oa2Dg" name="reference" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_hm_mLQSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mLgSCEeipbtix-oa2Dg" key="uuid" value="_luZOINdhEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mLwSCEeipbtix-oa2Dg" name="schemePaymentSubType" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_hm_mMASCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mMQSCEeipbtix-oa2Dg" key="uuid" value="_mDvMANdhEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mMgSCEeipbtix-oa2Dg" name="schemePaymentType" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_hm_mMwSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mNASCEeipbtix-oa2Dg" key="uuid" value="_qSY9wNdhEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Association" xmi:id="_hm_mNQSCEeipbtix-oa2Dg" name="Payment_PaymentDetails" memberEnd="_hm_mOASCEeipbtix-oa2Dg _hm_mQQSCEeipbtix-oa2Dg" navigableOwnedEnd="_hm_mOASCEeipbtix-oa2Dg _hm_mQQSCEeipbtix-oa2Dg">
+      <eAnnotations xmi:id="_hm_mNgSCEeipbtix-oa2Dg" source="genmymodel">
+        <details xmi:id="_hm_mNwSCEeipbtix-oa2Dg" key="uuid" value="_aAkuYtdcEDWsJbrJLaeGOQ"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_hm_mOASCEeipbtix-oa2Dg" name="paymentDetails" type="_hm_l_wSCEeipbtix-oa2Dg" isUnique="false" aggregation="composite" association="_hm_mNQSCEeipbtix-oa2Dg">
+        <eAnnotations xmi:id="_hm_mOQSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mOgSCEeipbtix-oa2Dg" key="uuid" value="_aAkHUtdcEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_hm_mOwSCEeipbtix-oa2Dg">
+          <eAnnotations xmi:id="_hm_mPASCEeipbtix-oa2Dg" source="genmymodel">
+            <details xmi:id="_hm_mPQSCEeipbtix-oa2Dg" key="uuid" value="_aAkuYNdcEDWsJbrJLaeGOQ"/>
+          </eAnnotations>
+        </lowerValue>
+        <upperValue xsi:type="uml:LiteralInteger" xmi:id="_hm_mPgSCEeipbtix-oa2Dg" value="1">
+          <eAnnotations xmi:id="_hm_mPwSCEeipbtix-oa2Dg" source="genmymodel">
+            <details xmi:id="_hm_mQASCEeipbtix-oa2Dg" key="uuid" value="_aAkuYddcEDWsJbrJLaeGOQ"/>
+          </eAnnotations>
+        </upperValue>
+      </ownedEnd>
+      <ownedEnd xmi:id="_hm_mQQSCEeipbtix-oa2Dg" name="payment" type="_hm_l7QSCEeipbtix-oa2Dg" association="_hm_mNQSCEeipbtix-oa2Dg">
+        <eAnnotations xmi:id="_hm_mQgSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mQwSCEeipbtix-oa2Dg" key="uuid" value="_aAjgQddcEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_hm_mRASCEeipbtix-oa2Dg">
+          <eAnnotations xmi:id="_hm_mRQSCEeipbtix-oa2Dg" source="genmymodel">
+            <details xmi:id="_hm_mRgSCEeipbtix-oa2Dg" key="uuid" value="_aAkHUNdcEDWsJbrJLaeGOQ"/>
+          </eAnnotations>
+        </lowerValue>
+        <upperValue xsi:type="uml:LiteralInteger" xmi:id="_hm_mRwSCEeipbtix-oa2Dg" value="1">
+          <eAnnotations xmi:id="_hm_mSASCEeipbtix-oa2Dg" source="genmymodel">
+            <details xmi:id="_hm_mSQSCEeipbtix-oa2Dg" key="uuid" value="_aAkHUddcEDWsJbrJLaeGOQ"/>
+          </eAnnotations>
+        </upperValue>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_hm_mSgSCEeipbtix-oa2Dg" name="Party">
+      <eAnnotations xmi:id="_hm_mSwSCEeipbtix-oa2Dg" source="genmymodel">
+        <details xmi:id="_hm_mTASCEeipbtix-oa2Dg" key="uuid" value="_n0JzAddcEDWsJbrJLaeGOQ"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_hm_mTQSCEeipbtix-oa2Dg" name="accountName" visibility="private">
+        <eAnnotations xmi:id="_hm_mTgSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mTwSCEeipbtix-oa2Dg" key="uuid" value="_6yZeUddfEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mUASCEeipbtix-oa2Dg" name="accountNumber" visibility="private">
+        <eAnnotations xmi:id="_hm_mUQSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mUgSCEeipbtix-oa2Dg" key="uuid" value="_71QpgNdfEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mUwSCEeipbtix-oa2Dg" name="accountNumberCode" visibility="private">
+        <eAnnotations xmi:id="_hm_mVASCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mVQSCEeipbtix-oa2Dg" key="uuid" value="_8r7LwddfEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mVgSCEeipbtix-oa2Dg" name="accountType" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_hm_mVwSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mWASCEeipbtix-oa2Dg" key="uuid" value="_92x1UddfEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mWQSCEeipbtix-oa2Dg" name="address" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_hm_mWgSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mWwSCEeipbtix-oa2Dg" key="uuid" value="_BNItIddgEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mXASCEeipbtix-oa2Dg" name="bankId" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_hm_mXQSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mXgSCEeipbtix-oa2Dg" key="uuid" value="_CZSXMddgEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mXwSCEeipbtix-oa2Dg" name="bankIdCode" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_hm_mYASCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mYQSCEeipbtix-oa2Dg" key="uuid" value="_DefrwNdgEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mYgSCEeipbtix-oa2Dg" name="name" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_hm_mYwSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mZASCEeipbtix-oa2Dg" key="uuid" value="_EovRUNdgEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_hm_mZQSCEeipbtix-oa2Dg" name="ChargesInformation">
+      <eAnnotations xmi:id="_hm_mZgSCEeipbtix-oa2Dg" source="genmymodel">
+        <details xmi:id="_hm_mZwSCEeipbtix-oa2Dg" key="uuid" value="_SYV8QNddEDWsJbrJLaeGOQ"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_hm_maASCEeipbtix-oa2Dg" name="bearerCode" visibility="private">
+        <eAnnotations xmi:id="_hm_maQSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_magSCEeipbtix-oa2Dg" key="uuid" value="_YhIqANdeEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mawSCEeipbtix-oa2Dg" name="charges" visibility="private" type="_hm_mlwSCEeipbtix-oa2Dg" isUnique="false" aggregation="composite">
+        <eAnnotations xmi:id="_hm_mbASCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mbQSCEeipbtix-oa2Dg" key="uuid" value="_qWmPsNdeEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_hm_mbgSCEeipbtix-oa2Dg"/>
+        <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_hm_mbwSCEeipbtix-oa2Dg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mcASCEeipbtix-oa2Dg" name="receiverChargesAmount" visibility="private" type="_hm_m7ASCEeipbtix-oa2Dg" isUnique="false">
+        <eAnnotations xmi:id="_hm_mcQSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mcgSCEeipbtix-oa2Dg" key="uuid" value="_UVpEgNdfEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mcwSCEeipbtix-oa2Dg" name="receiverChargesCurrency" visibility="private" type="_hm_mdgSCEeipbtix-oa2Dg" isUnique="false">
+        <eAnnotations xmi:id="_hm_mdASCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mdQSCEeipbtix-oa2Dg" key="uuid" value="_e7lIcddfEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Enumeration" xmi:id="_hm_mdgSCEeipbtix-oa2Dg" name="Currency">
+      <eAnnotations xmi:id="_hm_mdwSCEeipbtix-oa2Dg" source="genmymodel">
+        <details xmi:id="_hm_meASCEeipbtix-oa2Dg" key="uuid" value="_ZnviMNddEDWsJbrJLaeGOQ"/>
+      </eAnnotations>
+      <ownedLiteral xmi:id="_hm_meQSCEeipbtix-oa2Dg" name="GBP" visibility="private" classifier="_hm_mdgSCEeipbtix-oa2Dg">
+        <eAnnotations xmi:id="_hm_megSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mewSCEeipbtix-oa2Dg" key="uuid" value="_cgXVINddEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+      </ownedLiteral>
+      <ownedLiteral xmi:id="_hm_mfASCEeipbtix-oa2Dg" name="USD" visibility="private" classifier="_hm_mdgSCEeipbtix-oa2Dg">
+        <eAnnotations xmi:id="_hm_mfQSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mfgSCEeipbtix-oa2Dg" key="uuid" value="_dXcuINddEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+      </ownedLiteral>
+      <ownedLiteral xmi:id="_hm_mfwSCEeipbtix-oa2Dg" name="EURO" visibility="private" classifier="_hm_mdgSCEeipbtix-oa2Dg">
+        <eAnnotations xmi:id="_hm_mgASCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mgQSCEeipbtix-oa2Dg" key="uuid" value="_e7bpYNddEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+      </ownedLiteral>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Association" xmi:id="_hm_mggSCEeipbtix-oa2Dg" name="PaymentDetails_Charges" memberEnd="_hm_mhQSCEeipbtix-oa2Dg _hm_mjgSCEeipbtix-oa2Dg" navigableOwnedEnd="_hm_mhQSCEeipbtix-oa2Dg _hm_mjgSCEeipbtix-oa2Dg">
+      <eAnnotations xmi:id="_hm_mgwSCEeipbtix-oa2Dg" source="genmymodel">
+        <details xmi:id="_hm_mhASCEeipbtix-oa2Dg" key="uuid" value="_vOTa9dddEDWsJbrJLaeGOQ"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_hm_mhQSCEeipbtix-oa2Dg" name="chargesInformation" type="_hm_mZQSCEeipbtix-oa2Dg" isUnique="false" aggregation="composite" association="_hm_mggSCEeipbtix-oa2Dg">
+        <eAnnotations xmi:id="_hm_mhgSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mhwSCEeipbtix-oa2Dg" key="uuid" value="_vOTa8tddEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_hm_miASCEeipbtix-oa2Dg">
+          <eAnnotations xmi:id="_hm_miQSCEeipbtix-oa2Dg" source="genmymodel">
+            <details xmi:id="_hm_migSCEeipbtix-oa2Dg" key="uuid" value="_vOTa89ddEDWsJbrJLaeGOQ"/>
+          </eAnnotations>
+        </lowerValue>
+        <upperValue xsi:type="uml:LiteralInteger" xmi:id="_hm_miwSCEeipbtix-oa2Dg" value="1">
+          <eAnnotations xmi:id="_hm_mjASCEeipbtix-oa2Dg" source="genmymodel">
+            <details xmi:id="_hm_mjQSCEeipbtix-oa2Dg" key="uuid" value="_vOTa9NddEDWsJbrJLaeGOQ"/>
+          </eAnnotations>
+        </upperValue>
+      </ownedEnd>
+      <ownedEnd xmi:id="_hm_mjgSCEeipbtix-oa2Dg" name="paymentDetails" type="_hm_l_wSCEeipbtix-oa2Dg" association="_hm_mggSCEeipbtix-oa2Dg">
+        <eAnnotations xmi:id="_hm_mjwSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mkASCEeipbtix-oa2Dg" key="uuid" value="_vOSz4tddEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_hm_mkQSCEeipbtix-oa2Dg">
+          <eAnnotations xmi:id="_hm_mkgSCEeipbtix-oa2Dg" source="genmymodel">
+            <details xmi:id="_hm_mkwSCEeipbtix-oa2Dg" key="uuid" value="_vOTa8NddEDWsJbrJLaeGOQ"/>
+          </eAnnotations>
+        </lowerValue>
+        <upperValue xsi:type="uml:LiteralInteger" xmi:id="_hm_mlASCEeipbtix-oa2Dg" value="1">
+          <eAnnotations xmi:id="_hm_mlQSCEeipbtix-oa2Dg" source="genmymodel">
+            <details xmi:id="_hm_mlgSCEeipbtix-oa2Dg" key="uuid" value="_vOTa8dddEDWsJbrJLaeGOQ"/>
+          </eAnnotations>
+        </upperValue>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_hm_mlwSCEeipbtix-oa2Dg" name="Charges">
+      <eAnnotations xmi:id="_hm_mmASCEeipbtix-oa2Dg" source="genmymodel">
+        <details xmi:id="_hm_mmQSCEeipbtix-oa2Dg" key="uuid" value="_i2WKUddeEDWsJbrJLaeGOQ"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_hm_mmgSCEeipbtix-oa2Dg" name="amount" visibility="private" type="_hm_m7ASCEeipbtix-oa2Dg">
+        <eAnnotations xmi:id="_hm_mmwSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mnASCEeipbtix-oa2Dg" key="uuid" value="_kV4DYddeEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mnQSCEeipbtix-oa2Dg" name="currency" visibility="private" type="_hm_mdgSCEeipbtix-oa2Dg">
+        <eAnnotations xmi:id="_hm_mngSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mnwSCEeipbtix-oa2Dg" key="uuid" value="_lDohQNdeEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Association" xmi:id="_hm_moASCEeipbtix-oa2Dg" name="ChargesInformation_Charges" memberEnd="_hm_mowSCEeipbtix-oa2Dg _hm_mqgSCEeipbtix-oa2Dg" navigableOwnedEnd="_hm_mowSCEeipbtix-oa2Dg _hm_mqgSCEeipbtix-oa2Dg">
+      <eAnnotations xmi:id="_hm_moQSCEeipbtix-oa2Dg" source="genmymodel">
+        <details xmi:id="_hm_mogSCEeipbtix-oa2Dg" key="uuid" value="_tvuuttdeEDWsJbrJLaeGOQ"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_hm_mowSCEeipbtix-oa2Dg" name="charges" type="_hm_mlwSCEeipbtix-oa2Dg" isUnique="false" aggregation="composite" association="_hm_moASCEeipbtix-oa2Dg">
+        <eAnnotations xmi:id="_hm_mpASCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mpQSCEeipbtix-oa2Dg" key="uuid" value="_tvuus9deEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_hm_mpgSCEeipbtix-oa2Dg">
+          <eAnnotations xmi:id="_hm_mpwSCEeipbtix-oa2Dg" source="genmymodel">
+            <details xmi:id="_hm_mqASCEeipbtix-oa2Dg" key="uuid" value="_tvuutNdeEDWsJbrJLaeGOQ"/>
+          </eAnnotations>
+        </lowerValue>
+        <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_hm_mqQSCEeipbtix-oa2Dg" value="*"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_hm_mqgSCEeipbtix-oa2Dg" name="chargesInformation" type="_hm_mZQSCEeipbtix-oa2Dg" association="_hm_moASCEeipbtix-oa2Dg">
+        <eAnnotations xmi:id="_hm_mqwSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mrASCEeipbtix-oa2Dg" key="uuid" value="_tvuusNdeEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_hm_mrQSCEeipbtix-oa2Dg">
+          <eAnnotations xmi:id="_hm_mrgSCEeipbtix-oa2Dg" source="genmymodel">
+            <details xmi:id="_hm_mrwSCEeipbtix-oa2Dg" key="uuid" value="_tvuusddeEDWsJbrJLaeGOQ"/>
+          </eAnnotations>
+        </lowerValue>
+        <upperValue xsi:type="uml:LiteralInteger" xmi:id="_hm_msASCEeipbtix-oa2Dg" value="1">
+          <eAnnotations xmi:id="_hm_msQSCEeipbtix-oa2Dg" source="genmymodel">
+            <details xmi:id="_hm_msgSCEeipbtix-oa2Dg" key="uuid" value="_tvuustdeEDWsJbrJLaeGOQ"/>
+          </eAnnotations>
+        </upperValue>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_hm_mswSCEeipbtix-oa2Dg" name="ForeignExchange">
+      <eAnnotations xmi:id="_hm_mtASCEeipbtix-oa2Dg" source="genmymodel">
+        <details xmi:id="_hm_mtQSCEeipbtix-oa2Dg" key="uuid" value="_ioJrYddgEDWsJbrJLaeGOQ"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_hm_mtgSCEeipbtix-oa2Dg" name="contractReference" visibility="private">
+        <eAnnotations xmi:id="_hm_mtwSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_muASCEeipbtix-oa2Dg" key="uuid" value="_k7IaoddgEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_muQSCEeipbtix-oa2Dg" name="exchangeRate" visibility="private" type="_hm_m7ASCEeipbtix-oa2Dg">
+        <eAnnotations xmi:id="_hm_mugSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_muwSCEeipbtix-oa2Dg" key="uuid" value="_lp2h0ddgEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mvASCEeipbtix-oa2Dg" name="originalAmount" visibility="private" type="_hm_m7ASCEeipbtix-oa2Dg">
+        <eAnnotations xmi:id="_hm_mvQSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mvgSCEeipbtix-oa2Dg" key="uuid" value="_mtfJENdgEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hm_mvwSCEeipbtix-oa2Dg" name="originalCurrency" visibility="private" type="_hm_mdgSCEeipbtix-oa2Dg">
+        <eAnnotations xmi:id="_hm_mwASCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mwQSCEeipbtix-oa2Dg" key="uuid" value="_nusHYddgEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Association" xmi:id="_hm_mwgSCEeipbtix-oa2Dg" name="PaymentDetails_ForeignExchange" memberEnd="_hm_mxQSCEeipbtix-oa2Dg _hm_mzgSCEeipbtix-oa2Dg" navigableOwnedEnd="_hm_mxQSCEeipbtix-oa2Dg _hm_mzgSCEeipbtix-oa2Dg">
+      <eAnnotations xmi:id="_hm_mwwSCEeipbtix-oa2Dg" source="genmymodel">
+        <details xmi:id="_hm_mxASCEeipbtix-oa2Dg" key="uuid" value="_2SXzQtdgEDWsJbrJLaeGOQ"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_hm_mxQSCEeipbtix-oa2Dg" name="foreignExchange" type="_hm_mswSCEeipbtix-oa2Dg" isUnique="false" aggregation="composite" association="_hm_mwgSCEeipbtix-oa2Dg">
+        <eAnnotations xmi:id="_hm_mxgSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_mxwSCEeipbtix-oa2Dg" key="uuid" value="_2SXMNddgEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_hm_myASCEeipbtix-oa2Dg">
+          <eAnnotations xmi:id="_hm_myQSCEeipbtix-oa2Dg" source="genmymodel">
+            <details xmi:id="_hm_mygSCEeipbtix-oa2Dg" key="uuid" value="_2SXzQNdgEDWsJbrJLaeGOQ"/>
+          </eAnnotations>
+        </lowerValue>
+        <upperValue xsi:type="uml:LiteralInteger" xmi:id="_hm_mywSCEeipbtix-oa2Dg" value="1">
+          <eAnnotations xmi:id="_hm_mzASCEeipbtix-oa2Dg" source="genmymodel">
+            <details xmi:id="_hm_mzQSCEeipbtix-oa2Dg" key="uuid" value="_2SXzQddgEDWsJbrJLaeGOQ"/>
+          </eAnnotations>
+        </upperValue>
+      </ownedEnd>
+      <ownedEnd xmi:id="_hm_mzgSCEeipbtix-oa2Dg" name="paymentDetails" type="_hm_l_wSCEeipbtix-oa2Dg" isUnique="false" association="_hm_mwgSCEeipbtix-oa2Dg">
+        <eAnnotations xmi:id="_hm_mzwSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_m0ASCEeipbtix-oa2Dg" key="uuid" value="_2SXMMtdgEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_hm_m0QSCEeipbtix-oa2Dg">
+          <eAnnotations xmi:id="_hm_m0gSCEeipbtix-oa2Dg" source="genmymodel">
+            <details xmi:id="_hm_m0wSCEeipbtix-oa2Dg" key="uuid" value="_2SXMM9dgEDWsJbrJLaeGOQ"/>
+          </eAnnotations>
+        </lowerValue>
+        <upperValue xsi:type="uml:LiteralInteger" xmi:id="_hm_m1ASCEeipbtix-oa2Dg" value="1">
+          <eAnnotations xmi:id="_hm_m1QSCEeipbtix-oa2Dg" source="genmymodel">
+            <details xmi:id="_hm_m1gSCEeipbtix-oa2Dg" key="uuid" value="_2SXMNNdgEDWsJbrJLaeGOQ"/>
+          </eAnnotations>
+        </upperValue>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Association" xmi:id="_hm_m1wSCEeipbtix-oa2Dg" name="PaymentDetails_Party" memberEnd="_hm_m2gSCEeipbtix-oa2Dg _hm_m4wSCEeipbtix-oa2Dg" navigableOwnedEnd="_hm_m2gSCEeipbtix-oa2Dg _hm_m4wSCEeipbtix-oa2Dg">
+      <eAnnotations xmi:id="_hm_m2ASCEeipbtix-oa2Dg" source="genmymodel">
+        <details xmi:id="_hm_m2QSCEeipbtix-oa2Dg" key="uuid" value="_bigMdtdiEDWsJbrJLaeGOQ"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_hm_m2gSCEeipbtix-oa2Dg" name="party" type="_hm_mSgSCEeipbtix-oa2Dg" aggregation="composite" association="_hm_m1wSCEeipbtix-oa2Dg">
+        <eAnnotations xmi:id="_hm_m2wSCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_m3ASCEeipbtix-oa2Dg" key="uuid" value="_bigMc9diEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_hm_m3QSCEeipbtix-oa2Dg">
+          <eAnnotations xmi:id="_hm_m3gSCEeipbtix-oa2Dg" source="genmymodel">
+            <details xmi:id="_hm_m3wSCEeipbtix-oa2Dg" key="uuid" value="_bigMdNdiEDWsJbrJLaeGOQ"/>
+          </eAnnotations>
+        </lowerValue>
+        <upperValue xsi:type="uml:LiteralInteger" xmi:id="_hm_m4ASCEeipbtix-oa2Dg" value="1">
+          <eAnnotations xmi:id="_hm_m4QSCEeipbtix-oa2Dg" source="genmymodel">
+            <details xmi:id="_hm_m4gSCEeipbtix-oa2Dg" key="uuid" value="_bigMdddiEDWsJbrJLaeGOQ"/>
+          </eAnnotations>
+        </upperValue>
+      </ownedEnd>
+      <ownedEnd xmi:id="_hm_m4wSCEeipbtix-oa2Dg" name="paymentDetails" type="_hm_l_wSCEeipbtix-oa2Dg" association="_hm_m1wSCEeipbtix-oa2Dg">
+        <eAnnotations xmi:id="_hm_m5ASCEeipbtix-oa2Dg" source="genmymodel">
+          <details xmi:id="_hm_m5QSCEeipbtix-oa2Dg" key="uuid" value="_bigMcNdiEDWsJbrJLaeGOQ"/>
+        </eAnnotations>
+        <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_hm_m5gSCEeipbtix-oa2Dg">
+          <eAnnotations xmi:id="_hm_m5wSCEeipbtix-oa2Dg" source="genmymodel">
+            <details xmi:id="_hm_m6ASCEeipbtix-oa2Dg" key="uuid" value="_bigMcddiEDWsJbrJLaeGOQ"/>
+          </eAnnotations>
+        </lowerValue>
+        <upperValue xsi:type="uml:LiteralInteger" xmi:id="_hm_m6QSCEeipbtix-oa2Dg" value="1">
+          <eAnnotations xmi:id="_hm_m6gSCEeipbtix-oa2Dg" source="genmymodel">
+            <details xmi:id="_hm_m6wSCEeipbtix-oa2Dg" key="uuid" value="_bigMctdiEDWsJbrJLaeGOQ"/>
+          </eAnnotations>
+        </upperValue>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xsi:type="uml:DataType" xmi:id="_hm_m7ASCEeipbtix-oa2Dg" name="BigDecimal">
+    <eAnnotations xmi:id="_hm_m7QSCEeipbtix-oa2Dg" source="genmymodel">
+      <details xmi:id="_hm_m7gSCEeipbtix-oa2Dg" key="uuid" value="_87pxMNdcEDWsJbrJLaeGOQ"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:DataType" xmi:id="_hm_m7wSCEeipbtix-oa2Dg" name="Date">
+    <eAnnotations xmi:id="_hm_m8ASCEeipbtix-oa2Dg" source="genmymodel">
+      <details xmi:id="_hm_m8QSCEeipbtix-oa2Dg" key="uuid" value="_xzHkQNdhEDWsJbrJLaeGOQ"/>
+    </eAnnotations>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,7 @@
+com/form3/services/data/payments/model/ChargesInformation.class
+com/form3/services/data/payments/model/PaymentDetails.class
+com/form3/services/data/payments/model/ForeignExchange.class
+com/form3/services/data/payments/model/Payments.class
+com/form3/services/data/payments/model/Currency.class
+com/form3/services/data/payments/model/Charge.class
+com/form3/services/data/payments/model/Party.class
